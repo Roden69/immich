@@ -1,0 +1,37 @@
+.dark {
+  /* Immich Core */
+  --immich-dark-primary: 198 160 246; /* Mauve */
+  --immich-dark-bg: 36 39 58; /* Base */
+  --immich-dark-fg: 202 211 245; /* Text */
+  --immich-dark-gray: 54 58 79; /* Surface0 */
+
+  /* Immich UI Overrides */
+  --immich-ui-primary-500: #c6a0f6; /* Mauve */
+  --immich-ui-success-500: #a6da95; /* Green */
+  --immich-ui-danger-500: #ed8796; /* Red */
+  --immich-ui-warning-500: #eed49f; /* Yellow */
+  --immich-ui-info-500: #8aadf4; /* Blue */
+
+  --immich-ui-dark: #cad3f5; /* Text */
+  --immich-ui-light: #24273a; /* Base */
+  --immich-ui-muted: #a5adcb; /* Subtext0 */
+  --immich-ui-gray: #494d64; /* Surface1 */
+
+  /* Dark palette for shades */
+  --color-neutral-50: #cad3f5; /* text */
+  --color-neutral-100: #b8c0e0; /* subtext1 */
+  --color-neutral-200: #a5adcb; /* subtext0 */
+  --color-neutral-300: #939ab7; /* overlay2 */
+  --color-neutral-400: #8087a2; /* overlay1 */
+  --color-neutral-500: #6e738d; /* overlay0 */
+  --color-neutral-600: #5b6078; /* surface2 */
+  --color-neutral-700: #494d64; /* surface1 */
+  --color-neutral-800: #363a4f; /* surface0 */
+  --color-neutral-900: #24273a; /* base */
+  --color-neutral-950: #181926; /* crust */
+}
+
+/* Fix for the loading screen stripe */
+html.dark {
+  background-color: #24273a !important;
+}
